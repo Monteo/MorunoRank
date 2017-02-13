@@ -85,7 +85,7 @@ function MorunoRank()
    
     if(PercentNextPVPRank<0) then PercentNextPVPRank=PercentNextPVPRank*-1;end;
  
-    SendChatMessage("Current RP: "..CurrentRP.." at "..PercentPVPRank.."% (Rank "..CurrentRank..") RP To Next Rank: "..NeededRPToNextRank.." This Week RP Gained:"..math.floor(RB).." @ Total RP Calculation: "..EEarns.." at "..PercentNextPVPRank.."%(Rank "..EarnedRank..")","emote");
+    DEFAULT_CHAT_FRAME:AddMessage("Current RP: "..CurrentRP.." at "..PercentPVPRank.."% (Rank "..CurrentRank..") RP To Next Rank: "..NeededRPToNextRank.." This Week RP Gained:"..math.floor(RB).." @ Total RP Calculation: "..EEarns.." at "..PercentNextPVPRank.."%(Rank "..EarnedRank..")",   1, 0.647059, 0);
    
 end
 
